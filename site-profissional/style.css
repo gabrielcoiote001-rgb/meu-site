@@ -1,0 +1,109 @@
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    background: #1f2933;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* TOPO */
+.topo {
+    padding: 60px 20px;
+}
+
+.topo-conteudo {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* LOGO */
+.logo {
+    width: 260px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* TÍTULO E TEXTO */
+.topo h1 {
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+}
+
+.topo p {
+    font-size: 1.1rem;
+    color: #cbd5e1;
+    margin-bottom: 20px;
+}
+
+/* BOTÃO */
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #22c55e;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #16a34a;
+}
+
+/* SEÇÃO SERVIÇOS */
+section.servicos {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    background: #ffffff;
+    color: #1f2933;
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* LISTA DE SERVIÇOS */
+section.servicos ul {
+    list-style: none;
+    padding: 0;
+}
+
+section.servicos li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+/* RODAPÉ */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #cbd5e1;
+}
+
+/* RESPONSIVO */
+@media (max-width: 600px) {
+    .logo {
+        width: 200px;
+    }
+
+    .topo h1 {
+        font-size: 1.9rem;
+    }
+
+    section.servicos li {
+        font-size: 1rem;
+    }
+}
